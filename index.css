@@ -1,0 +1,158 @@
+body{
+    height: 100%;
+    position: relative;
+    background-color: 1F2937;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.mainContainer{
+    margin: 3%;
+    border: 3px, solid 1F2937;
+    border-radius: 3px;
+    background-color: 1F2937;
+
+}
+
+h1{
+    padding-top: 10vw;
+    padding-left: 13vw;
+    font-size: 5vw;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: -5%;
+}
+
+h2{
+    padding-left: 13vw;
+    font-size: 5vw;
+    font-weight: bolder;
+    color: 55F991;
+    margin-bottom: -1%;
+}
+
+#lower{
+    padding-left: 13vw;
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: light;
+    color: white;
+    margin-bottom: 3%;
+}
+
+button{
+    position: relative;
+    background-color: 273549;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    height: 8%;
+    margin-top: 8%;
+    margin-left: 13%;
+    border: 5px, solid 273549;
+    border-radius: 5px;
+}
+
+#genButton{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.container{
+    position: relative;
+    background-color: 273549;
+    display:inline-flex;
+    width: 35em;
+    border: 5px, solid 4ADF86;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    color: 4ADF86;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+#firstPassword{
+    position: relative;
+    padding-top: 3%;
+    background-color: 2F3E53;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 330px;
+    height: 30px;
+    border: 5px, solid 2F3E53;
+    border-radius: 5px;
+
+}
+
+#secondPassword{
+    position: relative;
+    padding-top: 3%;
+    background-color: 2F3E53;
+    width: 330px;
+    height: 30px;
+    border: 5px, solid 2F3E53;
+    border-radius: 5px;
+    margin-right: 10%;
+}
+
+.clipBoard{
+    position: relative;
+    display: inline-flex;
+    font-size: 2vw;
+    margin-left: 18%;
+    margin-top: 5%;
+    width: 30em;
+    height: 30em;
+    border-radius: 15em;
+}
+
+.tickBoxes{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    margin-right: 4em;
+    padding-left: 6.5em;
+    padding-right: 5em;
+}
+
+#numSelect{
+    position: relative;
+    font-size: 2vw;
+    width: 3em;
+    height: 1.5em;
+    top: 1em;
+    margin-left: 1em;
+    margin-right: 3%;
+
+}
+
+#symOn-Off{
+    position: relative;
+    margin-left: 1em;
+    margin-right: 3%;
+
+}
+
+#numOn-Off{
+    position: relative;
+    margin-right: 3%;
+    margin-left: 1em;
+}
+
+#capsOn{
+    position: relative;
+    margin-right: 3%;
+    margin-left: 1em;
+}
+
+#capsOff{
+    position: relative;
+    margin-right: 3%;
+    margin-left: 1em;
+}
+

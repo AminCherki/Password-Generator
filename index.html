@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="mainContainer">
+            <h1>Generate a</h1> 
+            <h2>random password</h2>
+            <p id="lower">Never use an insecure password again.</p>
+            <div class="tickBoxes">
+                <p>Length:</p>
+                <input id="numSelect" type ="number" name = "charlength" min= 5 max = 20 step="1" value="">
+                <p>Symbols:</p>
+                <input type="checkbox" name="symbols" id="symOn-Off" value="" checked>
+                <p>Numbers:</p>
+                <input type="checkbox" name="numbs" id="numOn-Off" value="" checked>
+                <p>Uppercase:</p>
+                <input type="checkbox" name="caps" id="capsOn" value="" checked>
+                <p>Lowercase:</p>
+                <input type="checkbox" name="caps" id="capsOff" value="" checked>
+            </div>
+            <button id="genButton" onclick="generatePassword()">Generate passwords</button>
+                <div class="container">
+                    <p id="firstPassword"></p>
+                    <p id="secondPassword"></p>
+                </div>
+                    <div class="clipBoard">
+                        <button id="copyPasswordOne-el" onclick="copyPassword()">Copy password 1</button>
+                        <button id="copyPasswordTwo-el" onclick="copyPasswordTwo()">Copy password 2</button>
+                    </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
