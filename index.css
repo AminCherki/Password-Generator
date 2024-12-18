@@ -108,7 +108,7 @@ button{
 .clipBoard{
     position: relative;
     display: inline-flex;
-    font-size: 4vw;
+    font-size: 2vw;
     margin-left: 3%;
     margin-top: 5%;
     width: 100%;
@@ -134,7 +134,7 @@ button{
     position: relative;
     display: inline-flex;
     text-align: center;
-    font-size: 4vw;
+    font-size: 2vw;
     font-weight: bold;
     color: white;
     margin-right: 4em;
