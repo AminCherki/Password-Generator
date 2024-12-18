@@ -46,14 +46,14 @@ h2{
 button{
     position: relative;
     background-color: 273549;
-    font-size: 2vw;
+}
+
+#genButton{
+    font-size: 3vw;
     font-weight: bold;
     color: white;
     border: 5px, solid 273549;
     border-radius: 5px;
-}
-
-#genButton{
     width: 90%;
     height: 10%;
     margin-top: 5%;
@@ -69,7 +69,7 @@ button{
     border: 5px, solid 4ADF86;
     border-radius: 5px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: bold;
     color: 4ADF86;
     margin-left: 8%;
