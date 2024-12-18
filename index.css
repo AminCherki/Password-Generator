@@ -1,7 +1,7 @@
 #viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
+    width: device-width ;
+    zoom: 1.0 ;
+  }
 
 body{
     height: 100%;
@@ -42,7 +42,7 @@ h2{
     font-style: italic;
     font-weight: light;
     color: white;
-    margin-bottom: 3%;
+    margin-bottom: 10%;
 }
 
 button{
@@ -59,15 +59,17 @@ button{
 }
 
 #genButton{
+    width: 80%;
+    height: 10%;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 13%;
 }
 
 .container{
     position: relative;
     background-color: 273549;
     display:inline-flex;
-    width: 35em;
+    width: 80%;
     border: 5px, solid 4ADF86;
     border-radius: 5px;
     text-align: center;
@@ -81,10 +83,11 @@ button{
 #firstPassword{
     position: relative;
     padding-top: 3%;
+    padding-bottom: 3%;
     background-color: 2F3E53;
     margin-right: 10%;
     margin-left: 10%;
-    width: 330px;
+    width: 40%;
     height: 30px;
     border: 5px, solid 2F3E53;
     border-radius: 5px;
@@ -94,8 +97,9 @@ button{
 #secondPassword{
     position: relative;
     padding-top: 3%;
+    padding-bottom: 3%;
     background-color: 2F3E53;
-    width: 330px;
+    width: 40%;
     height: 30px;
     border: 5px, solid 2F3E53;
     border-radius: 5px;
@@ -123,6 +127,7 @@ button{
     margin-right: 4em;
     padding-left: 6.5em;
     padding-right: 5em;
+    margin-bottom: 4em;
 }
 
 #numSelect{
